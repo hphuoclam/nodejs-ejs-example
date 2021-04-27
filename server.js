@@ -30,7 +30,7 @@ app.get("/", async function (req, res) {
     country: "us",
   });
 
-  console.log(news);
+//   console.log(news);
 
   res.render("pages/index", {
     mascots,
